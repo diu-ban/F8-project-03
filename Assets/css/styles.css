@@ -822,6 +822,7 @@ input, select, textarea, button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 44px;
 }
 .review__nav {
     display: flex;
@@ -847,7 +848,17 @@ input, select, textarea, button {
 .review__content-wrap {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 115px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.review__center-block {
+    overflow: hidden;
+}
+.review__list{
+    display: flex;
+    overflow: hidden;
 }
 .review__thumb-wrap {
     position: relative;
